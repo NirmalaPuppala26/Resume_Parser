@@ -1,15 +1,16 @@
-# Resume_Parser
 📄 Resume Parser & Job Recommendation Website
-A Flask-based web application that helps job seekers find relevant opportunities by analyzing their resumes and evaluating their eligibility through a short test.
+A Flask-based company career portal that helps HR teams quickly identify top candidates. Applicants can upload their resumes, get AI-powered job suggestions, and take a short eligibility test. Only candidates who pass the test can be shortlisted by HR.
 
 🚀 Features
 📂 Resume Parsing – Extract skills, experience, and qualifications from uploaded resumes.
 
 💼 Job Suggestions – AI-powered matching with relevant job openings.
 
-📝 Eligibility Test – Quick quiz to check if you meet job requirements.
+📝 Eligibility Test – Quick quiz to verify if the candidate meets the job requirements.
 
-🌐 User-Friendly Interface – Simple and responsive design.
+👥 HR-Friendly – Helps recruiters focus on resumes that pass the eligibility test.
+
+🌐 User-Friendly Interface – Simple and responsive design for both applicants and HR.
 
 🛠 Tech Stack
 Backend: Python (Flask)
@@ -19,13 +20,15 @@ Frontend: HTML, CSS (Jinja Templates)
 Data Handling: CSV for test questions, PDF parsing for resumes
 
 📌 How It Works
-Go to the Career Page.
+Candidate visits the Career Page.
 
-Upload your resume.
+Uploads their resume.
 
-Get job recommendations based on your skills.
+System analyzes and suggests relevant jobs.
 
-Take a short test to check eligibility.
+Candidate takes a short eligibility test.
+
+HR receives resumes of candidates who pass the test.
 
 📥 Installation & Setup
 
