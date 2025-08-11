@@ -1,0 +1,382 @@
+role,question,option_a,option_b,option_c,option_d,answer
+Python Developer,What does the 'def' keyword do?,Defines a function,Defines a class,Deletes a variable,Does nothing,A
+Python Developer,What is a list in Python?,A data structure,A loop,A module,A file,A
+Python Developer,How do you create an empty dictionary in Python?,dict(),{},Both A and B,None of the above,C
+Python Developer,What is the output of 'print(3 * 'abc')'?,abcabcabc,abc abc abc,3abc,Error,A
+Python Developer,Which keyword is used for exception handling?,try,except,finally,All of the above,D
+Python Developer,What does PEP 8 refer to?,Python coding style guide,Python package,Python version,Python compiler,A
+Python Developer,How do you comment in Python?,// comment,# comment,/* comment */,<!-- comment -->,B
+Python Developer,What is the purpose of __init__ method?,Initialize object,Delete object,Import module,Exit program,A
+Python Developer,Which module is used for regular expressions?,re,regex,pyre,reg,B
+Python Developer,What does 'self' represent in a class?,Current object,Parent class,Module,None of the above,A
+Python Developer,Which is NOT a Python built-in data type?,list,tuple,dict,array,D
+Python Developer,What is the output of 'print(2**3)'?,6,8,9,23,B
+Python Developer,Which function converts a string to lowercase?,lower(),toLower(),caseLower(),strLower(),A
+Python Developer,What does the 'yield' keyword do?,Returns a generator,Returns a list,Returns a tuple,Returns a dictionary,A
+Python Developer,Which operator is used for floor division?,/,//,%,**,B
+Python Developer,What is the correct way to open a file?,open('file.txt'),open('file.txt','r'),Both A and B,None of the above,C
+Python Developer,Which is used to measure code execution time?,timeit,datetime,time,clock,A
+Python Developer,What does 'immutable' mean?,Cannot be changed,Can be changed,Can be deleted,Can be copied,A
+Python Developer,Which is NOT a Python web framework?,Django,Flask,React,Pyramid,C
+Python Developer,What is the purpose of virtualenv?,Create isolated Python environments,Install packages,Run tests,Debug code,A
+role,question,option_a,option_b,option_c,option_d,answer
+Python Developer,What does the 'def' keyword do?,Defines a function,Defines a class,Deletes a variable,Does nothing,A
+Python Developer,What is a list in Python?,A data structure,A loop,A module,A file,A
+Python Developer,How do you create an empty dictionary in Python?,dict(),{},Both A and B,None of the above,C
+Python Developer,What is the output of 'print(3 * 'abc')'?,abcabcabc,abc abc abc,3abc,Error,A
+Python Developer,Which keyword is used for exception handling?,try,except,finally,All of the above,D
+Python Developer,What does PEP 8 refer to?,Python coding style guide,Python package,Python version,Python compiler,A
+Python Developer,How do you comment in Python?,// comment,# comment,/* comment */,<!-- comment -->,B
+Python Developer,What is the purpose of __init__ method?,Initialize object,Delete object,Import module,Exit program,A
+Python Developer,Which module is used for regular expressions?,re,regex,pyre,reg,A
+Python Developer,What does 'self' represent in a class?,Current object,Parent class,Module,None of the above,A
+Python Developer,Which is NOT a Python built-in data type?,list,tuple,dict,array,D
+Python Developer,What is the output of 'print(2**3)'?,6,8,9,23,B
+Python Developer,Which function converts a string to lowercase?,lower(),toLower(),caseLower(),strLower(),A
+Python Developer,What does the 'yield' keyword do?,Returns a generator,Returns a list,Returns a tuple,Returns a dictionary,A
+Python Developer,Which operator is used for floor division?,/,//,%,**,B
+Python Developer,What is the correct way to open a file?,open('file.txt'),open('file.txt','r'),Both A and B,None of the above,C
+Python Developer,Which is used to measure code execution time?,timeit,datetime,time,clock,A
+Python Developer,What does 'immutable' mean?,Cannot be changed,Can be changed,Can be deleted,Can be copied,A
+Python Developer,Which is NOT a Python web framework?,Django,Flask,React,Pyramid,C
+Python Developer,What is the purpose of virtualenv?,Create isolated Python environments,Install packages,Run tests,Debug code,A
+Python Developer,What is the output of 'print(type(lambda x: x))'?,<class 'function'>,<class 'lambda'>,<class 'int'>,<class 'NoneType'>,A
+Python Developer,Which method is used to add an item to a list?,append(),add(),insert(),push(),A
+Python Developer,What does the 'zip()' function do?,Combines iterables,Compresses files,Encrypts data,Deletes variables,A
+Python Developer,Which is NOT a valid Python variable name?,my_var,_var,123var,VarName,C
+Python Developer,What is the purpose of '__name__ == '__main__''?,Check if script is run directly,Import a module,Define a class,Handle exceptions,A
+Python Developer,Which module is used for working with dates and times?,datetime,time,calendar,All of the above,D
+Python Developer,What does 'sys.argv' contain?,Command-line arguments,Environment variables,Python path,Installed packages,A
+Python Developer,Which is used to create an abstract class?,abc module,abstract keyword,@abstract decorator,Both A and C,D
+Python Developer,What is the purpose of 'with' statement?,Context management,Exception handling,Loop control,Function definition,A
+Python Developer,Which is NOT a magic method in Python?,__init__,__str__,__call__,__function__,D
+Python Developer,What does 'pass' do in Python?,Nothing (placeholder),Terminates program,Skips iteration,Imports module,A
+Python Developer,Which is used to remove whitespace from string?,strip(),trim(),clean(),remove(),A
+Python Developer,What is the output of 'print(True + True)'?,1,2,True,Error,B
+Python Developer,Which is NOT a Python IDE?,PyCharm,VS Code,Jupyter,Eclipse,D
+Python Developer,What does 'enumerate()' do?,Adds counter to iterable,Creates enumeration,Sorts items,Generates sequence,A
+Python Developer,Which is used to make a shallow copy of a list?,list.copy(),list[:],copy.copy(),All of the above,D
+Python Developer,What is the purpose of 'collections' module?,Specialized container datatypes,Collection utilities,Data structures,All of the above,D
+Python Developer,Which is NOT a valid Python numeric type?,int,float,double,complex,C
+Python Developer,What does 'os.path.join()' do?,Joins path components,Joins strings,Joins lists,Joins dictionaries,A
+Python Developer,Which is used to convert string to integer?,int(),integer(),parseInt(),toInt(),A
+Python Developer,What is the purpose of 'itertools' module?,Functions creating iterators,Math operations,String operations,File handling,A
+Python Developer,Which is NOT a Python built-in function?,len(),sum(),avg(),max(),C
+Python Developer,What does 'frozenset' do?,Creates immutable set,Freezes variable,Creates constant,None of the above,A
+Python Developer,Which is used to sort a list in-place?,list.sort(),sorted(list),list.order(),sort(list),A
+Python Developer,What is the purpose of 'globals()' function?,Returns global symbol table,Returns global variables,Both A and B,None of the above,C
+Python Developer,Which is NOT a valid Python string method?,split(),join(),concat(),replace(),C
+Python Developer,What does 'super()' do?,Returns parent class object,Returns superclass,Calls parent method,All of the above,D
+Python Developer,Which is used to create a package in Python?,__init__.py,package.py,main.py,setup.py,A
+Python Developer,What is the purpose of 'unittest' module?,Unit testing,Integration testing,Both A and B,None of the above,A
+Python Developer,Which is NOT a Python built-in exception?,ValueError,TypeError,SyntaxError,FileError,D
+Python Developer,What does 'staticmethod' do?,Creates static method,Creates class method,Both A and B,None of the above,A
+Python Developer,Which is used to reverse a list?,list.reverse(),reversed(list),Both A and B,None of the above,C
+Python Developer,What is the purpose of 'asyncio' module?,Asynchronous I/O,Event loop,Coroutines,All of the above,D
+Python Developer,Which is NOT a valid Python logical operator?,and,or,not,xor,D
+Python Developer,What does 'help()' function do?,Displays documentation,Provides assistance,Shows help menu,All of the above,A
+Python Developer,Which is used to create a virtual environment?,venv,virtualenv,pipenv,All of the above,D
+Python Developer,What is the purpose of 'typing' module?,Type hints,Type checking,Both A and B,None of the above,C
+Python Developer,Which is NOT a valid Python comparison operator?,==,!=,<>,>=,C
+Python Developer,What does 'locals()' function do?,Returns local symbol table,Returns local variables,Both A and B,None of the above,C
+Python Developer,Which is used to create a generator expression?,Parentheses,Square brackets,Curly braces,None of the above,A
+Python Developer,What is the purpose of '__slots__'?,Optimize memory usage,Prevent dynamic attributes,Both A and B,None of the above,C
+role,question,option_a,option_b,option_c,option_d,answer
+Data Scientist,Which library is primarily used for data manipulation in Python?,NumPy,Pandas,Matplotlib,Scikit-learn,B
+Data Scientist,What does the 'fit()' method do in scikit-learn?,Trains the model,Evaluates the model,Preprocesses data,Saves the model,A
+Data Scientist,What is the purpose of a confusion matrix?,Evaluate classification performance,Store raw data,Visualize clusters,Clean missing values,A
+Data Scientist,Which metric is NOT used for regression models?,Mean Squared Error,R-squared,Accuracy,Mean Absolute Error,C
+Data Scientist,What does PCA stand for?,Principal Component Analysis,Primary Component Algorithm,Probabilistic Cluster Analysis,Partial Correlation Assessment,A
+Data Scientist,Which algorithm is NOT supervised learning?,Linear Regression,K-Means,Decision Tree,Random Forest,B
+Data Scientist,What is the purpose of train_test_split?,Split data into training and test sets,Normalize features,Handle imbalanced data,Reduce dimensionality,A
+Data Scientist,Which library is used for deep learning in Python?,TensorFlow,Pandas,NumPy,Matplotlib,A
+Data Scientist,What does EDA stand for?,Exploratory Data Analysis,Extended Data Assessment,Exact Data Algorithm,Experimental Design Approach,A
+Data Scientist,Which method is used to handle missing data in pandas?,dropna(),fillna(),Both A and B,None of the above,C
+Data Scientist,What is the purpose of regularization in ML?,Prevent overfitting,Increase speed,Handle missing data,Reduce features,A
+Data Scientist,Which is NOT a type of cross-validation?,k-Fold,Stratified,Leave-One-Out,Randomized,D
+Data Scientist,What does ROC curve represent?,Model performance,Data distribution,Feature importance,Data quality,A
+Data Scientist,Which metric is best for imbalanced classification?,Accuracy,F1-Score,MSE,R-squared,B
+Data Scientist,What is the purpose of OneHotEncoder?,Convert categorical to numerical,Scale features,Remove outliers,Reduce dimensions,A
+Data Scientist,Which algorithm is used for collaborative filtering?,KNN,Linear Regression,K-Means,Decision Tree,A
+Data Scientist,What does NLP stand for?,Natural Language Processing,Neural Language Protocol,Non-Linear Programming,Numeric Logic Process,A
+Data Scientist,Which library is used for plotting in Python?,Matplotlib,Pandas,NumPy,Scikit-learn,A
+Data Scientist,What is the purpose of TF-IDF?,Text feature extraction,Image processing,Time series analysis,Dimensionality reduction,A
+Data Scientist,Which is NOT a pandas data structure?,Series,DataFrame,Panel,Array,D
+Data Scientist,What does 'lambda' function do in Python?,Creates anonymous function,Imports modules,Reads files,Plots graphs,A
+Data Scientist,Which method is used to normalize data?,MinMaxScaler,StandardScaler,Both A and B,None of the above,C
+Data Scientist,What is the purpose of a dendrogram?,Visualize hierarchical clustering,Show correlation,Plot time series,Display distributions,A
+Data Scientist,Which is NOT a feature selection method?,Variance Threshold,SelectKBest,RandomForest,OneHotEncoder,D
+Data Scientist,What does SQL stand for?,Structured Query Language,Statistical Query Logic,Standard Question Language,Sequential Query Loop,A
+Data Scientist,Which algorithm is NOT used for clustering?,K-Means,DBSCAN,Linear Regression,Hierarchical,C
+Data Scientist,What is the purpose of GridSearchCV?,Hyperparameter tuning,Data cleaning,Feature extraction,Model deployment,A
+Data Scientist,Which metric is used for binary classification?,AUC-ROC,Mean Squared Error,R-squared,Silhouette Score,A
+Data Scientist,What does 'bias' mean in ML?,Model's simplifying assumptions,Data error,Measurement error,Random noise,A
+Data Scientist,Which is NOT a dimensionality reduction technique?,PCA,t-SNE,LDA,K-Means,D
+Data Scientist,What is the purpose of SMOTE?,Handle class imbalance,Feature scaling,Outlier removal,Data augmentation,A
+Data Scientist,Which library is used for statistical tests in Python?,SciPy,NumPy,Pandas,Matplotlib,A
+Data Scientist,What does ARIMA stand for?,AutoRegressive Integrated Moving Average,Automated Regression of Integrated Metrics,Advanced Regression of Independent Models,Algorithm for Regression in Multiple Aspects,A
+Data Scientist,Which is NOT a recommender system approach?,Content-based,Collaborative filtering,Demographic,Decision tree,D
+Data Scientist,What is the purpose of a box plot?,Show data distribution,Display trends,Compare groups,Both A and C,D
+Data Scientist,Which algorithm is used for anomaly detection?,Isolation Forest,Linear Regression,Decision Tree,K-Means,A
+Data Scientist,What does 'feature engineering' mean?,Creating new features,Selecting features,Both A and B,None of the above,C
+Data Scientist,Which is NOT a time series decomposition component?,Trend,Seasonality,Noise,Correlation,D
+Data Scientist,What is the purpose of A/B testing?,Compare two versions,Test hypotheses,Both A and B,None of the above,C
+Data Scientist,Which metric measures cluster quality?,Silhouette Score,Accuracy,Precision,F1-Score,A
+Data Scientist,What does 'overfitting' mean?,Model learns training data too well,Model generalizes well,Model underperforms,Data is imbalanced,A
+Data Scientist,Which is NOT a neural network layer type?,Dense,Convolutional,Pooling,Filtering,D
+Data Scientist,What is the purpose of word embeddings?,Represent words numerically,Clean text data,Tokenize sentences,Parse grammar,A
+Data Scientist,Which activation function is NOT used in neural networks?,ReLU,Sigmoid,Softmax,Square,D
+Data Scientist,What does 'batch size' refer to in deep learning?,Number of samples per gradient update,Model parameters,Training epochs,Validation samples,A
+Data Scientist,Which is NOT a valid pandas method for merging data?,concat(),merge(),join(),combine(),D
+Data Scientist,What is the purpose of the 'Elbow Method'?,Determine optimal clusters,Evaluate regression,Test hypotheses,Clean data,A
+Data Scientist,Which evaluation metric is specific to recommender systems?,Mean Average Precision,Accuracy,F1-Score,R-squared,A
+Data Scientist,What does 'feature importance' indicate?,Contribution to predictions,Data quality,Model complexity,Training time,A
+Data Scientist,Which is NOT a valid sampling technique?,Random,Stratified,Systematic,Diagonal,D
+Data Scientist,What is the purpose of 'early stopping' in deep learning?,Prevent overfitting,Reduce training time,Both A and B,None of the above,C
+Data Scientist,Which algorithm is NOT tree-based?,Random Forest,XGBoost,Logistic Regression,LightGBM,C
+Data Scientist,What does 'multi-collinearity' refer to?,High correlation among features,Missing data,Class imbalance,Noisy data,A
+Data Scientist,Which is NOT a valid data normalization technique?,Min-Max,Standardization,Log transformation,One-hot encoding,D
+Data Scientist,What is the purpose of 'SHAP values'?,Explain model predictions,Clean data,Select features,Train models,A
+Data Scientist,What is the primary purpose of pandas?,Data manipulation,Data visualization,Machine learning,Web scraping,A
+Data Scientist,Which function is used to read a CSV file in pandas?,read_csv(),read
+Data Scientist,Which library is used for data analysis?,NumPy,Pandas,TensorFlow,Keras,B
+Data Scientist,What does 'fit()' do in sklearn?,Trains a model,Tests a model,Saves a model,Visualizes data,A
+Data Scientist,What is the primary use of NumPy?,Numerical computing,Data visualization,Web scraping,Machine learning,A
+Data Scientist,Which is NOT a supervised learning algorithm?,Linear Regression,K-Means,Decision Tree,Random Forest,B
+Data Scientist,What does EDA stand for?,Exploratory Data Analysis,Extended Data Assessment,Exact Data Analysis,External Data Access,A
+Data Scientist,Which library is used for plotting in Python?,Matplotlib,Seaborn,Both A and B,None of the above,C
+Data Scientist,What is the purpose of train_test_split?,Split data into training and test sets,Normalize data,Clean data,Visualize data,A
+Data Scientist,What does CSV stand for?,Comma Separated Values,Columnar Storage Values,Computer System Validation,Common System Variables,A
+Data Scientist,Which is NOT a pandas data structure?,Series,DataFrame,Panel,Array,D
+Data Scientist,What does 'lambda' function do?,Creates anonymous function,Imports module,Reads file,Plots graph,A
+Data Scientist,Which metric is NOT for classification?,Accuracy,Precision,Recall,Mean Squared Error,D
+Data Scientist,What is the purpose of OneHotEncoder?,Convert categorical to numerical,Scale features,Remove outliers,Reduce dimensions,A
+Data Scientist,Which is NOT a type of cross-validation?,k-fold,Leave-one-out,Stratified,Randomized,D
+Data Scientist,What does PCA stand for?,Principal Component Analysis,Primary Component Assessment,Partial Correlation Analysis,Probabilistic Component Algorithm,A
+Data Scientist,Which is NOT a feature scaling method?,Standardization,Normalization,OneHotEncoding,MinMax Scaling,C
+Data Scientist,What is the purpose of a confusion matrix?,Evaluate classification performance,Store data,Visualize clusters,Clean data,A
+Data Scientist,Which is NOT a deep learning framework?,TensorFlow,PyTorch,Keras,Scikit-learn,D
+Data Scientist,What is the purpose of the 'dropna()' method?,Remove missing values,Fill missing values,Count missing values,Ignore missing values,A
+Data Scientist,Which is NOT a clustering algorithm?,K-Means,DBSCAN,Hierarchical,Linear Regression,D
+Data Scientist,What does ROC curve represent?,Model performance,Data distribution,Feature importance,Data quality,A
+role,question,option_a,option_b,option_c,option_d,answer
+Frontend Developer,What does HTML stand for?,Hyper Text Markup Language,Hyperlink Text Makeup Language,High-Level Text Machine Language,Home Tool Markup Language,A
+Frontend Developer,Which HTML tag creates a hyperlink?,<a>,<link>,<href>,<hyperlink>,A
+Frontend Developer,What is the correct way to include CSS in HTML?,<style>,<link rel="stylesheet">,Both A and B,None of the above,C
+Frontend Developer,Which CSS property changes text color?,color,text-color,font-color,text-style,A
+Frontend Developer,What does DOM stand for?,Document Object Model,Data Object Model,Display Object Management,Document Orientation Mode,A
+Frontend Developer,Which is NOT a JavaScript framework?,React,Angular,Vue,Django,D
+Frontend Developer,What is the purpose of localStorage?,Store data in browser,Store data on server,Style elements,Make HTTP requests,A
+Frontend Developer,Which CSS property controls element spacing?,margin,padding,border,Both A and B,D
+Frontend Developer,What does AJAX stand for?,Asynchronous JavaScript and XML,Advanced JavaScript and XML,Application JavaScript and XHTML,Automated JSON and XML,A
+Frontend Developer,Which is NOT a semantic HTML element?,<div>,<article>,<section>,<header>,A
+Frontend Developer,What is the purpose of media queries?,Responsive design,Animation,Form validation,Data storage,A
+Frontend Developer,Which is NOT a JavaScript data type?,string,number,boolean,float,D
+Frontend Developer,What does 'this' refer to in JavaScript?,Current object,Parent object,Window object,Depends on context,D
+Frontend Developer,Which is NOT a CSS positioning value?,static,relative,fixed,center,D
+Frontend Developer,What is the purpose of npm?,Package management,Database access,Server configuration,Testing framework,A
+Frontend Developer,Which is NOT a React hook?,useState,useEffect,useContext,useComponent,D
+Frontend Developer,What does BEM stand for in CSS?,Block Element Modifier,Box Element Model,Basic Element Method,Browser Extension Module,A
+Frontend Developer,Which is NOT a JavaScript ES6 feature?,let/const,Arrow functions,Classes,Promises,D
+Frontend Developer,What is the purpose of webpack?,Module bundler,Database,Testing framework,State management,A
+Frontend Developer,Which CSS unit is relative to font size?,em,px,pt,in,A
+Frontend Developer,What does CORS stand for?,Cross-Origin Resource Sharing,Content Origin Resource System,Centralized Origin Resources,Cross-Origin Request Security,A
+Frontend Developer,Which method creates a new array in JavaScript?,map(),forEach(),loop(),iterate(),A
+Frontend Developer,What is the purpose of CSS Flexbox?,Layout design,Animation,Form validation,Data storage,A
+Frontend Developer,Which is NOT a valid HTML input type?,text,number,float,date,C
+Frontend Developer,What does SPA stand for?,Single Page Application,Simple Page App,Structured Page Architecture,Standardized Page Approach,A
+Frontend Developer,Which CSS property creates rounded corners?,border-radius,corner-radius,round-border,border-curve,A
+Frontend Developer,What is the virtual DOM?,Lightweight copy of real DOM,New HTML standard,React component,Shadow DOM,A
+Frontend Developer,Which is NOT a JavaScript framework/library?,React,Angular,jQuery,Express,D
+Frontend Developer,What is the purpose of CSS Grid?,Two-dimensional layout,Animation,Form styling,Data visualization,A
+Frontend Developer,Which HTML5 tag plays videos?,<video>,<media>,<movie>,<play>,A
+Frontend Developer,What does SSR stand for?,Server-Side Rendering,Static Site Rendering,Standard Style Rules,Structured System Response,A
+Frontend Developer,Which CSS selector targets an ID?,#,.,*,:,A
+Frontend Developer,What is the purpose of Redux?,State management,Routing,Styling,Database access,A
+Frontend Developer,Which is NOT a CSS preprocessor?,Sass,Less,Stylus,PostCSS,D
+Frontend Developer,What does API stand for?,Application Programming Interface,Automated Programming Interface,Advanced Programming Instruction,Application Process Integration,A
+Frontend Developer,Which method prevents default event behavior?,preventDefault(),stopDefault(),cancelDefault(),haltDefault(),A
+Frontend Developer,What is the purpose of useEffect hook in React?,Side effects,State management,Props handling,Routing,A
+Frontend Developer,Which is NOT a valid HTTP method?,GET,POST,UPDATE,DELETE,C
+Frontend Developer,What does PWA stand for?,Progressive Web App,Professional Web Architecture,Portable Web Application,Programmable Web Agent,A
+Frontend Developer,Which CSS property creates animations?,@keyframes,animate,@animation,keyframe,A
+Frontend Developer,What is the purpose of JSX?,Write HTML in JavaScript,Style components,Manage state,Handle routing,A
+Frontend Developer,Which is NOT a React lifecycle method?,componentDidMount,componentWillUpdate,componentReceiveProps,componentDidUpdate,C
+Frontend Developer,What does SEO stand for?,Search Engine Optimization,Standardized Engine Output,Structured Element Organization,Secure Engine Operation,A
+Frontend Developer,Which CSS property controls stacking order?,z-index,layer-index,stack-order,display-index,A
+Frontend Developer,What is the purpose of async/await?,Handle asynchronous code,Style components,Validate forms,Query database,A
+Frontend Developer,Which is NOT a valid JavaScript loop?,for,while,do-while,repeat,D
+Frontend Developer,What does CDN stand for?,Content Delivery Network,Code Distribution Node,Centralized Data Network,Compressed Data Notation,A
+Frontend Developer,Which HTML attribute enables accessibility?,alt,aria-label,role,All of the above,D
+Frontend Developer,What is the purpose of useContext hook?,Access context,Manage state,Handle props,Create components,A
+Frontend Developer,Which is NOT a valid CSS display value?,block,flex,grid,box,D
+Frontend Developer,What does CLI stand for?,Command Line Interface,Common Language Interface,Centralized Logic Integration,Compiled Language Instruction,A
+Frontend Developer,Which method deep copies an object in JavaScript?,JSON.parse(JSON.stringify()),Object.copy(),clone(),deepCopy(),A
+Frontend Developer,What is the purpose of React Router?,Navigation,State management,Styling,Form handling,A
+Frontend Developer,Which CSS feature enables dark/light mode?,prefers-color-scheme,dark-mode,color-scheme,theme-switch,A
+Frontend Developer,What does HTML stand for?,Hyper Text Markup Language,Hyperlink Text Makeup Language,Highlevel Text Markup Language,Hyperlinking Test Machine Language,A
+Frontend Developer,Which tag creates a hyperlink?,<a>,<link>,<href>,<hyperlink>,A
+Frontend Developer,What is the correct way to include CSS?,<style>,<link rel="stylesheet">,Both A and B,None of the above,C
+Frontend Developer,Which is NOT a CSS selector?,class,id,tag,loop,D
+Frontend Developer,What does DOM stand for?,Document Object Model,Data Object Model,Display Object Management,Document Orientation Mode,A
+Frontend Developer,Which is NOT a JavaScript framework?,React,Angular,Vue,Django,D
+Frontend Developer,What is the purpose of localStorage?,Store data in browser,Store data in server,Style elements,Make HTTP requests,A
+Frontend Developer,Which is NOT a CSS positioning value?,static,relative,fixed,center,D
+Frontend Developer,What does AJAX stand for?,Asynchronous JavaScript and XML,Advanced JavaScript and XML,Application JavaScript and XHTML,Automated JSON and XML,A
+Frontend Developer,Which is NOT a semantic HTML element?,<div>,<article>,<section>,<header>,A
+Frontend Developer,What is the purpose of media queries?,Responsive design,Animation,Form validation,Data storage,A
+Frontend Developer,Which is NOT a JavaScript data type?,string,number,boolean,float,D
+Frontend Developer,What does 'this' refer to in JavaScript?,Current object,Parent object,Window object,Depends on context,D
+Frontend Developer,Which is NOT a CSS box model property?,margin,padding,border,display,D
+Frontend Developer,What is the purpose of npm?,Package management,Database access,Server configuration,Testing framework,A
+Frontend Developer,Which is NOT a React hook?,useState,useEffect,useContext,useComponent,D
+Frontend Developer,What does BEM stand for in CSS?,Block Element Modifier,Box Element Model,Basic Element Method,Browser Extension Module,A
+Frontend Developer,Which is NOT a JavaScript ES6 feature?,let/const,Arrow functions,Classes,Promises,D
+Frontend Developer,What is the purpose of webpack?,Module bundler,Database,Testing framework,State management,A
+role,question,option_a,option_b,option_c,option_d,answer
+Backend Developer,What does REST stand for?,Representational State Transfer,Remote State Transfer,Resource State Transfer,Representative State Transfer,A
+Backend Developer,Which HTTP method is idempotent?,GET,POST,PUT,Both A and C,D
+Backend Developer,What is the purpose of middleware?,Process requests/responses,Store data,Connect to DB,Validate forms,A
+Backend Developer,Which is NOT a NoSQL database?,MongoDB,PostgreSQL,Cassandra,Redis,B
+Backend Developer,What does ORM stand for?,Object-Relational Mapping,Object-Resource Management,Operational Relationship Model,Object-Role Modeling,A
+Backend Developer,Which is NOT a database transaction property?,Atomicity,Consistency,Isolation,Durability,Complexity,E
+Backend Developer,What is the purpose of JWT?,Authentication,Database access,File storage,Data visualization,A
+Backend Developer,Which status code means "Created"?,200,201,400,500,B
+Backend Developer,What does API stand for?,Application Programming Interface,Automated Programming Interface,Advanced Programming Instruction,Application Process Integration,A
+Backend Developer,Which is NOT a Node.js framework?,Express,Django,Koa,NestJS,B
+Backend Developer,What is the purpose of connection pooling?,Reuse DB connections,Encrypt data,Validate inputs,Cache queries,A
+Backend Developer,Which is NOT a caching strategy?,Write-through,Read-through,Write-around,Read-under,D
+Backend Developer,What does ACID stand for?,Atomicity Consistency Isolation Durability,Accuracy Consistency Integrity Durability,Atomicity Concurrency Isolation Durability,Automated Consistency Integrated Data,A
+Backend Developer,Which is NOT an HTTP security header?,Content-Security-Policy,X-Frame-Options,Access-Control-Allow-Origin,X-Cache-Status,D
+Backend Developer,What is the purpose of Docker?,Containerization,Virtualization,Both A and B,None of the above,C
+Backend Developer,Which is NOT a message broker?,RabbitMQ,Kafka,Redis,PostgreSQL,D
+Backend Developer,What does SQL injection target?,Database layer,Presentation layer,Business logic,None of the above,A
+Backend Developer,Which is NOT a database index type?,B-tree,Hash,Bitmap,Linear,D
+Backend Developer,What is the purpose of Nginx?,Web server/Reverse proxy,Database,Programming language,Cache,A
+Backend Developer,Which is NOT a valid HTTP method?,GET,POST,UPDATE,DELETE,C
+Backend Developer,What does CORS stand for?,Cross-Origin Resource Sharing,Content Origin Resource System,Centralized Origin Resources,Cross-Origin Request Security,A
+Backend Developer,Which is NOT a microservices pattern?,API Gateway,Circuit Breaker,Monolith,Service Registry,C
+Backend Developer,What is the purpose of WebSockets?,Real-time communication,File uploads,Database queries,Authentication,A
+Backend Developer,Which is NOT a valid database relationship?,One-to-One,One-to-Many,Many-to-Many,Many-to-One,D
+Backend Developer,What does CDN stand for?,Content Delivery Network,Code Distribution Node,Centralized Data Network,Compressed Data Notation,A
+Backend Developer,Which is NOT a valid authentication method?,OAuth,JWT,Basic Auth,HTML5,D
+Backend Developer,What is the purpose of Kubernetes?,Container orchestration,Container creation,Both A and B,None of the above,A
+Backend Developer,Which is NOT a cloud provider?,AWS,Azure,GCP,Oracle,D
+Backend Developer,What does CI/CD stand for?,Continuous Integration/Continuous Delivery,Code Integration/Code Deployment,Continuous Inspection/Continuous Delivery,Centralized Infrastructure/Cloud Deployment,A
+Backend Developer,Which is NOT a database normalization form?,1NF,2NF,3NF,4PF,D
+Backend Developer,What is the purpose of GraphQL?,Query language for APIs,Database language,Template language,Markup language,A
+Backend Developer,Which is NOT a valid cache-control header?,no-cache,no-store,max-age,no-expire,D
+Backend Developer,What does SSH stand for?,Secure Shell,Secure Socket Host,Standard Shell Host,System Security Handler,A
+Backend Developer,Which is NOT a valid load balancing algorithm?,Round Robin,Least Connections,Random,Depth-First,D
+Backend Developer,What is the purpose of .env files?,Environment variables,Database config,API documentation,Log files,A
+Backend Developer,Which is NOT a valid database join?,INNER,OUTER,CROSS,DIAGONAL,D
+Backend Developer,What does SOLID stand for in OOP?,Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion,Software Objects with Logical Interface Design,Structured Object-Layered Interface Development,System-Oriented Language for Interface Design,A
+Backend Developer,Which is NOT a valid API architecture?,REST,SOAP,GraphQL,HTML5,D
+Backend Developer,What is the purpose of rate limiting?,Prevent abuse,Increase speed,Validate data,Encrypt traffic,A
+Backend Developer,Which is NOT a valid database transaction isolation level?,Read Uncommitted,Read Committed,Repeatable Read,Write Committed,D
+Backend Developer,What does TTL stand for?,Time To Live,Time To Load,Total Time Limit,Transaction Time Log,A
+Backend Developer,Which is NOT a valid hashing algorithm?,MD5,SHA-256,bcrypt,AES,D
+Backend Developer,What is the purpose of Webhooks?,Event notifications,File storage,Database queries,Authentication,A
+Backend Developer,Which is NOT a valid cloud service model?,IaaS,PaaS,SaaS,HaaS,D
+Backend Developer,What does CAP theorem state?,Consistency Availability Partition Tolerance,Code Access Performance,Centralized Automated Processing,Computational Algorithmic Protocol,A
+Backend Developer,Which is NOT a valid API authentication method?,API Key,OAuth,Bearer Token,HTML Token,D
+Backend Developer,What is the purpose of gRPC?,High-performance RPC,File storage,Database queries,Template rendering,A
+Backend Developer,Which is NOT a valid database replication type?,Master-Slave,Master-Master,Peer-to-Peer,Leader-Follower,C
+Backend Developer,What does DDoS stand for?,Distributed Denial of Service,Data Distribution over Systems,Direct Database Operations,Decentralized Domain Service,A
+Backend Developer,Which is NOT a valid container orchestration tool?,Kubernetes,Docker Swarm,Apache Mesos,Ansible,D
+Backend Developer,What is the purpose of circuit breaker pattern?,Handle failures gracefully,Encrypt data,Validate inputs,Cache responses,A
+Backend Developer,Which is NOT a valid API documentation tool?,Swagger,Postman,GraphQL Playground,Jenkins,D
+Backend Developer,What does IAM stand for?,Identity and Access Management,Internet Application Module,Integrated Access Method,Infrastructure Automation Management,A
+Backend Developer,Which is NOT a valid database sharding strategy?,Range-based,Hash-based,Directory-based,Time-based,D
+Backend Developer,What is the purpose of serverless architecture?,Run code without managing servers,Increase database speed,Improve frontend performance,Replace containers,A
+Backend Developer,Which is NOT a NoSQL database?,MongoDB,Cassandra,PostgreSQL,Redis,C
+Backend Developer,What is REST short for?,Representational State Transfer,Remote State Transfer,Resource State Transfer,Representative State Transfer,A
+Backend Developer,Which HTTP method creates a resource?,GET,POST,PUT,DELETE,B
+Backend Developer,What is the purpose of middleware?,Process requests and responses,Store data,Connect to database,Validate forms,A
+Backend Developer,Which is NOT a Node.js framework?,Express,Django,Koa,NestJS,B
+Backend Developer,What does ORM stand for?,Object-Relational Mapping,Object-Resource Management,Operational Relationship Model,Object-Role Modeling,A
+Backend Developer,Which is NOT a database transaction property?,Atomicity,Consistency,Isolation,Durability,Complexity,E
+Backend Developer,What is the purpose of JWT?,Authentication,Database access,File storage,Data visualization,A
+Backend Developer,Which is NOT an HTTP status code?,200,404,500,700,D
+Backend Developer,What does API stand for?,Application Programming Interface,Automated Programming Interface,Advanced Programming Instruction,Application Process Integration,A
+role,question,option_a,option_b,option_c,option_d,answer
+DevOps Engineer,What is the primary goal of DevOps?,Bridge between development and operations,Automate everything,Replace sysadmins with developers,Culture of collaboration between teams,D
+DevOps Engineer,Which tool is NOT a CI/CD server?,Jenkins,Travis CI,Ansible,CircleCI,C
+DevOps Engineer,What does IaC stand for?,Infrastructure as Code,Integration as Code,Internet as Cloud,Implementation as Configuration,A
+DevOps Engineer,Which is NOT a configuration management tool?,Ansible,Chef,Puppet,Kubernetes,D
+DevOps Engineer,What is the main purpose of Docker?,Containerization,Virtualization,Both A and B,None of the above,A
+DevOps Engineer,Which cloud provider offers EC2?,AWS,Azure,GCP,IBM Cloud,A
+DevOps Engineer,What does Kubernetes primarily manage?,Containers,Virtual Machines,Both A and B,None of the above,A
+DevOps Engineer,Which is NOT a monitoring tool?,Prometheus,Grafana,Nagios,Terraform,D
+DevOps Engineer,What is the purpose of Terraform?,Infrastructure as Code,Configuration Management,Continuous Integration,Container Orchestration,A
+DevOps Engineer,Which file defines Docker configurations?,Dockerfile,docker-compose.yml,Both A and B,None of the above,C
+DevOps Engineer,What does CI stand for in CI/CD?,Continuous Integration,Continuous Improvement,Continuous Inspection,Continuous Intervention,A
+DevOps Engineer,Which is NOT a feature of Git?,Version Control,Branching,Containerization,Collaboration,C
+DevOps Engineer,What is the main purpose of Ansible?,Configuration Management,Container Orchestration,Infrastructure Monitoring,Load Balancing,A
+DevOps Engineer,Which AWS service provides object storage?,S3,EC2,RDS,Lambda,A
+DevOps Engineer,What does CD stand for in CI/CD?,Continuous Deployment,Continuous Delivery,Both A and B,Continuous Development,C
+DevOps Engineer,Which is NOT a container orchestration tool?,Kubernetes,Docker Swarm,Apache Mesos,Ansible,D
+DevOps Engineer,What is the purpose of a blue-green deployment?,Zero-downtime deployments,Rolling updates,Canary releases,A/B testing,A
+DevOps Engineer,Which tool is used for log management?,ELK Stack,Prometheus,Grafana,Nagios,A
+DevOps Engineer,What does IAC mean in DevOps?,Infrastructure as Code,Integration as Code,Internet as Cloud,Implementation as Configuration,A
+DevOps Engineer,Which is NOT a virtualization technology?,VMware,Docker,KVM,Hyper-V,B
+DevOps Engineer,What is the purpose of Helm in Kubernetes?,Package Manager,Container Runtime,Cluster Manager,Monitoring Tool,A
+DevOps Engineer,Which cloud model provides hardware infrastructure?,IaaS,PaaS,SaaS,FaaS,A
+DevOps Engineer,What does SRE stand for?,Site Reliability Engineering,Server Runtime Environment,System Resource Engine,Software Release Engineering,A
+DevOps Engineer,Which is NOT a Git hosting service?,GitHub,GitLab,Bitbucket,Jenkins,D
+DevOps Engineer,What is the purpose of Vault by HashiCorp?,Secrets Management,Configuration Management,Container Orchestration,Service Discovery,A
+DevOps Engineer,Which AWS service manages containers?,ECS,Fargate,Both A and B,None of the above,C
+DevOps Engineer,What is the main purpose of Grafana?,Data Visualization,Log Management,Infrastructure as Code,Container Orchestration,A
+DevOps Engineer,Which is NOT a feature of Kubernetes?,Auto-scaling,Self-healing,Secret Management,Virtualization,D
+DevOps Engineer,What does SLA stand for?,Service Level Agreement,Server License Agreement,System Log Analysis,Software Lifecycle Assessment,A
+DevOps Engineer,Which tool is used for infrastructure provisioning?,Terraform,Ansible,Docker,Jenkins,A
+DevOps Engineer,What is the purpose of Istio?,Service Mesh,Container Runtime,CI/CD Pipeline,Monitoring Tool,A
+DevOps Engineer,Which is NOT a deployment strategy?,Blue-Green,Canary,Shadow,Waterfall,D
+DevOps Engineer,What does PaaS stand for?,Platform as a Service,Programming as a Service,Process as a System,Package as a Service,A
+DevOps Engineer,Which Azure service is equivalent to AWS EC2?,Azure VMs,Azure Blob Storage,Azure Functions,Azure SQL Database,A
+DevOps Engineer,What is the purpose of Prometheus?,Monitoring,Log Management,Infrastructure as Code,Container Orchestration,A
+DevOps Engineer,Which is NOT a Kubernetes object?,Pod,Service,Deployment,Playbook,D
+DevOps Engineer,What does RBAC stand for?,Role-Based Access Control,Rule-Based Access Configuration,Resource-Based Access Control,Remote Backup and Copy,A
+DevOps Engineer,Which GCP service is equivalent to AWS S3?,Cloud Storage,Cloud SQL,Compute Engine,Cloud Functions,A
+DevOps Engineer,What is the purpose of SonarQube?,Code Quality Analysis,Infrastructure Monitoring,Container Orchestration,Secret Management,A
+DevOps Engineer,Which is NOT a benefit of microservices?,Independent Deployment,Technology Diversity,Improved Fault Isolation,Simplified Monolithic Architecture,D
+DevOps Engineer,What does DNS stand for?,Domain Name System,Data Network Service,Dynamic Name Server,Distributed Network System,A
+DevOps Engineer,Which tool is used for container networking?,Calico,Ansible,Puppet,Chef,A
+DevOps Engineer,What is the purpose of ArgoCD?,GitOps Continuous Delivery,Infrastructure Monitoring,Log Management,Secret Management,A
+DevOps Engineer,Which is NOT a cloud deployment model?,Public,Private,Hybrid,Monolithic,D
+DevOps Engineer,What does SDN stand for?,Software Defined Networking,Server Deployment Network,System Design Node,Secure Data Network,A
+DevOps Engineer,Which AWS service provides serverless computing?,Lambda,EC2,EKS,S3,A
+DevOps Engineer,What is the purpose of Packer?,Create Machine Images,Manage Containers,Orchestrate Services,Monitor Infrastructure,A
+DevOps Engineer,Which is NOT a Kubernetes networking concept?,Service,Ingress,Pod,Playbook,D
+DevOps Engineer,What does CDN stand for?,Content Delivery Network,Code Deployment Network,Cloud Data Node,Continuous Delivery Network,A
+DevOps Engineer,Which tool is used for vulnerability scanning?,Trivy,Ansible,Terraform,Packer,A
+DevOps Engineer,What is the purpose of Spinnaker?,Multi-cloud Continuous Delivery,Container Orchestration,Infrastructure Monitoring,Secret Management,A
+DevOps Engineer,Which is NOT a Kubernetes scheduler?,Default Scheduler,Cluster Autoscaler,Custom Scheduler,Round-Robin Scheduler,D
+DevOps Engineer,What does MTTR stand for?,Mean Time To Repair,Mean Time To Recovery,Both A and B,Mean Time To Respond,C
+DevOps Engineer,Which Azure service provides Kubernetes management?,AKS,Blob Storage,Azure Functions,SQL Database,A
+DevOps Engineer,What is the purpose of Falco?,Container Security Monitoring,Infrastructure as Code,Continuous Integration,Load Balancing,A
+DevOps Engineer,Which is NOT a Git workflow?,Feature Branch Workflow,GitFlow Workflow,Forking Workflow,Waterfall Workflow,D
+DevOps Engineer,What does CICD pipeline stand for?,Continuous Integration/Continuous Delivery,Code Integration/Code Deployment,Continuous Inspection/Continuous Delivery,Centralized Infrastructure/Cloud Deployment,A
+DevOps Engineer,Which GCP service is serverless?,Cloud Functions,Compute Engine,Cloud SQL,GKE,A
+DevOps Engineer,What is the purpose of Kustomize?,Kubernetes Native Configuration Management,Container Security,Infrastructure Provisioning,Log Management,A
+DevOps Engineer,Which is NOT a Kubernetes volume type?,emptyDir,hostPath,configMap,gitRepo,D
+DevOps Engineer,What does MTTF stand for?,Mean Time To Failure,Mean Time To Fix,Mean Time To Feature,Mean Time To Format,A
+DevOps Engineer,Which AWS service manages Kubernetes?,EKS,ECS,Lambda,RDS,A
+DevOps Engineer,What is the purpose of Telepresence?,Local Development for Kubernetes,Container Security,Infrastructure Monitoring,Load Balancing,A
+DevOps Engineer,Which is NOT a container runtime?,containerd,CRI-O,Docker Engine,Ansible,D
+DevOps Engineer,What does GitOps mean?,Operations by Pull Request,Operations by Push,Both A and B,None of the above,A
+DevOps Engineer,Which tool is used for secret management in Kubernetes?,Sealed Secrets,Vault,Both A and B,None of the above,C
+DevOps Engineer,What is the purpose of K6?,Load Testing,Infrastructure as Code,Container Orchestration,Secret Management,A
+DevOps Engineer,Which is NOT a Kubernetes controller?,Deployment,StatefulSet,DaemonSet,NodeSet,D
+DevOps Engineer,What does SCM stand for?,Source Code Management,System Configuration Manager,Software Container Manager,Server Cluster Management,A
+DevOps Engineer,Which tool is used for policy enforcement in Kubernetes?,OPA Gatekeeper,Ansible,Terraform,Packer,A
+DevOps Engineer,What is the purpose of Kaniko?,Build Container Images in Kubernetes,Manage Secrets,Orchestrate Services,Monitor Infrastructure,A
+DevOps Engineer,Which is NOT a Kubernetes network policy type?,Ingress,Egress,Both A and B,Deny,D
+DevOps Engineer,What does RTO stand for?,Recovery Time Objective,Return To Operations,Run Time Operations,Resource Time Out,A
+DevOps Engineer,Which tool is used for chaos engineering?,Chaos Monkey,Gremlin,Both A and B,None of the above,C
+DevOps Engineer,What is the purpose of Crossplane?,Cloud Native Control Planes,Container Security,Infrastructure Monitoring,Load Balancing,A
+DevOps Engineer,What is the purpose of Docker?,Containerization,Virtualization,Both A and B,None of the above,C
+DevOps Engineer,Which is NOT a CI/CD tool?,Jenkins,Travis CI,Git,CircleCI,C
+DevOps Engineer,What does IaC stand for?,Infrastructure as Code,Integration as Code,Internet as Cloud,Implementation as Configuration,A
+DevOps Engineer,Which is NOT a cloud provider?,AWS,Azure,GCP,Oracle,D
+DevOps Engineer,What is the purpose of Kubernetes?,Container orchestration,Container creation,Both A and B,None of the above,A

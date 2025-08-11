@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ role }} Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    body {
+      background: linear-gradient(135deg, #f0f9ff 0%, #dff6ff 100%);
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .test-container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #0d6efd;
+      font-weight: 700;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    h3 {
+      color: #198754;
+      margin-bottom: 20px;
+    }
+
+    .question {
+      margin-bottom: 25px;
+      padding: 15px;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+    }
+
+    .question strong {
+      color: #0d6efd;
+    }
+
+    label {
+      display: block;
+      margin: 8px 0;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: background-color 0.2s;
+    }
+
+    label:hover {
+      background-color: #e9ecef;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    button[type="submit"] {
+      background-color: #0d6efd;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0b5ed7;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: #0d6efd;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .result-message {
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .passed {
+      background-color: #d1e7dd;
+      color: #0f5132;
+    }
+
+    .failed {
+      background-color: #f8d7da;
+      color: #842029;
+    }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h2>{{ role.replace('_', ' ') }} Test</h2>
+
+        {% if result %}
+            <div class="result-message {% if passed %}passed{% else %}failed{% endif %}">
+                <h3>{{ result }}</h3>
+                {% if passed %}
+                    <p>You are eligible to apply for the {{ role.replace('_', ' ') }} role.</p>
+                {% else %}
+                    <p>You can try again later.</p>
+                {% endif %}
+            </div>
+        {% else %}
+            <form method="POST">
+                {% for q in questions %}
+                    <div class="question">
+                        <p><strong>Q{{ loop.index }}: {{ q.question }}</strong></p>
+                        <label><input type="radio" name="q{{ loop.index0 }}" value="A" required> {{ q.option_a }}</label>
+                        <label><input type="radio" name="q{{ loop.index0 }}" value="B"> {{ q.option_b }}</label>
+                        <label><input type="radio" name="q{{ loop.index0 }}" value="C"> {{ q.option_c }}</label>
+                        <label><input type="radio" name="q{{ loop.index0 }}" value="D"> {{ q.option_d }}</label>
+                    </div>
+                {% endfor %}
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit Test</button>
+                </div>
+            </form>
+        {% endif %}
+
+        <a href="{{ url_for('index') }}" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>

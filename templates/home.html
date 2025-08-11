@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dizi HR - Smart Hiring Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    :root {
+      --primary: #0d6efd;
+      --primary-light: #e7f1ff;
+      --success: #198754;
+      --danger: #dc3545;
+      --dark: #212529;
+      --light: #f8f9fa;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      overflow-x: hidden;
+    }
+    
+    /* Navigation */
+    .navbar {
+      background-color: white;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-brand {
+      font-weight: 700;
+      color: var(--primary) !important;
+      font-size: 1.5rem;
+    }
+    
+    .nav-link {
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      color: var(--dark) !important;
+    }
+    
+    .nav-link:hover, .nav-link.active {
+      color: var(--primary) !important;
+    }
+    
+    .btn-primary {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      padding: 0.5rem 1.5rem;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #f0f9ff 0%, #dff6ff 100%);
+      padding: 5rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero h1 {
+      font-weight: 700;
+      font-size: 3rem;
+      color: var(--primary);
+    }
+    
+    .hero p {
+      font-size: 1.25rem;
+      color: #555;
+    }
+    
+    .hero-img {
+      animation: float 6s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+    
+    /* Features */
+    .feature-card {
+      border: none;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      background-color: white;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      height: 100%;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .feature-icon {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    
+    /* Testimonials */
+    .testimonial-card {
+      border-left: 4px solid var(--primary);
+      background-color: white;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+      background: linear-gradient(135deg, var(--primary) 0%, #4dabf7 100%);
+      color: white;
+      padding: 4rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    /* Footer */
+    .footer {
+      background-color: var(--dark);
+      color: white;
+      padding: 3rem 0;
+    }
+    
+    .footer-links a {
+      color: #adb5bd;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    
+    .footer-links a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+    
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      margin-right: 10px;
+      transition: all 0.3s;
+    }
+    
+    .social-icon:hover {
+      background-color: var(--primary);
+      transform: translateY(-3px);
+    }
+    </style>
+</head>
+<body>
+ <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-info shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="/">Dizi HR</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/career">Career</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1>Transform Your Hiring Process with AI</h1>
+            <p class="lead my-4">Dizi HR leverages cutting-edge artificial intelligence to help companies find the perfect candidates and job seekers land their dream roles.</p>
+            <div class="d-flex gap-3">
+              <a href="/resume-analyzer" class="btn btn-primary btn-lg">
+                Analyze Your Resume <i class="fas fa-arrow-right ms-2"></i>
+              </a>
+              <a href="#demo" class="btn btn-outline-primary btn-lg">
+                Request Demo
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="https://illustrations.popsy.co/amber/digital-nomad.svg" alt="HR Analytics" class="img-fluid hero-img d-none d-lg-block">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-2 text-center mb-4 mb-md-0">
+            <img src="https://logo.clearbit.com/google.com" alt="Google" class="img-fluid" style="height: 40px; filter: grayscale(100%) opacity(60%)">
+          </div>
+          <div class="col-6 col-md-2 text-center mb-4 mb-md-0">
+            <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft" class="img-fluid" style="height: 40px; filter: grayscale(100%) opacity(60%)">
+          </div>
+          <div class="col-6 col-md-2 text-center mb-4 mb-md-0">
+            <img src="https://logo.clearbit.com/amazon.com" alt="Amazon" class="img-fluid" style="height: 40px; filter: grayscale(100%) opacity(60%)">
+          </div>
+          <div class="col-6 col-md-2 text-center mb-4 mb-md-0">
+            <img src="https://logo.clearbit.com/airbnb.com" alt="Airbnb" class="img-fluid" style="height: 40px; filter: grayscale(100%) opacity(60%)">
+          </div>
+          <div class="col-6 col-md-2 text-center">
+            <img src="https://logo.clearbit.com/spotify.com" alt="Spotify" class="img-fluid" style="height: 40px; filter: grayscale(100%) opacity(60%)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 py-lg-7">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center">
+            <h2 class="fw-bold mb-3">Our Powerful Features</h2>
+            <p class="text-muted">Dizi HR provides comprehensive solutions for both employers and job seekers</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="feature-card p-4">
+              <div class="feature-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h4>AI Resume Analysis</h4>
+              <p>Our advanced algorithms analyze resumes to extract key skills, experience, and qualifications with 95% accuracy.</p>
+              <a href="/resume-analyzer" class="text-primary text-decoration-none">Try it now <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-card p-4">
+              <div class="feature-icon">
+                <i class="fas fa-bullseye"></i>
+              </div>
+              <h4>Smart Matching</h4>
+              <p>Automatically match candidates with the most suitable job openings based on skills, culture fit, and potential.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-card p-4">
+              <div class="feature-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h4>Analytics Dashboard</h4>
+              <p>Comprehensive hiring metrics and analytics to help you optimize your recruitment strategy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <img src="https://illustrations.popsy.co/amber/designer.svg" alt="HR Solutions" class="img-fluid">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="fw-bold mb-4">Solutions for Every Hiring Need</h2>
+            <div class="d-flex mb-4">
+              <div class="me-4">
+                <div class="bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Enterprise Hiring</h5>
+                <p class="text-muted">Scalable solutions for large organizations with complex hiring needs.</p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="me-4">
+                <div class="bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="fas fa-startup"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Startup Recruitment</h5>
+                <p class="text-muted">Affordable tools to help growing companies build their dream teams.</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="me-4">
+                <div class="bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="fas fa-user-graduate"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Career Services</h5>
+                <p class="text-muted">Help candidates improve their resumes and prepare for interviews.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 py-lg-7">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center">
+            <h2 class="fw-bold mb-3">Trusted by Leading Companies</h2>
+            <p class="text-muted">Don't just take our word for it - hear what our clients say</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="testimonial-card p-4 h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah Johnson" class="rounded-circle me-3" width="60">
+                <div>
+                  <h5 class="mb-0">Sarah Johnson</h5>
+                  <small class="text-muted">HR Director, TechCorp</small>
+                </div>
+              </div>
+              <p>"Dizi HR reduced our time-to-hire by 40% and improved candidate quality significantly. The AI matching is incredibly accurate."</p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card p-4 h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="rounded-circle me-3" width="60">
+                <div>
+                  <h5 class="mb-0">Michael Chen</h5>
+                  <small class="text-muted">CEO, StartupX</small>
+                </div>
+              </div>
+              <p>"As a small startup, we couldn't afford a full HR team. Dizi HR gave us enterprise-level hiring tools at a fraction of the cost."</p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card p-4 h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Emma Rodriguez" class="rounded-circle me-3" width="60">
+                <div>
+                  <h5 class="mb-0">Emma Rodriguez</h5>
+                  <small class="text-muted">Job Seeker</small>
+                </div>
+              </div>
+              <p>"The resume analyzer helped me identify my core strengths and matched me with perfect job opportunities I wouldn't have found otherwise."</p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <h2 class="text-white fw-bold mb-4">Ready to Transform Your Hiring Process?</h2>
+            <p class="text-white-80 mb-5">Join thousands of companies already using Dizi HR to find top talent faster and more efficiently.</p>
+            <div class="d-flex justify-content-center gap-3">
+              <a href="#contact" class="btn btn-light btn-lg px-4">Get Started</a>
+              <a href="#demo" class="btn btn-outline-light btn-lg px-4">Request Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="text-white mb-4">
+              <i class="fas fa-rocket me-2"></i>Dizi HR
+            </h5>
+            <p>Revolutionizing hiring through artificial intelligence and data-driven insights.</p>
+            <div class="mt-4">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h6 class="text-white mb-4">Product</h6>
+            <ul class="list-unstyled footer-links">
+              <li class="mb-2"><a href="#">Features</a></li>
+              <li class="mb-2"><a href="#">Pricing</a></li>
+              <li class="mb-2"><a href="/resume-analyzer">Resume Analyzer</a></li>
+              <li class="mb-2"><a href="#">API</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h6 class="text-white mb-4">Company</h6>
+            <ul class="list-unstyled footer-links">
+              <li class="mb-2"><a href="#">About Us</a></li>
+              <li class="mb-2"><a href="#">Careers</a></li>
+              <li class="mb-2"><a href="#">Blog</a></li>
+              <li class="mb-2"><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="text-white mb-4">Contact Us</h6>
+            <ul class="list-unstyled text-muted">
+              <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Tech Street, San Francisco, CA</li>
+              <li class="mb-2"><i class="fas fa-phone me-2"></i> (555) 123-4567</li>
+              <li class="mb-2"><i class="fas fa-envelope me-2"></i> hello@dizihr.com</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4 bg-secondary">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="small text-muted mb-0">© 2023 Dizi HR. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <ul class="list-inline small mb-0">
+              <li class="list-inline-item"><a href="#" class="text-muted">Privacy Policy</a></li>
+              <li class="list-inline-item"><a href="#" class="text-muted">Terms of Service</a></li>
+              <li class="list-inline-item"><a href="#" class="text-muted">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Simple animation for elements when they come into view
+      document.addEventListener('DOMContentLoaded', function() {
+        const animateOnScroll = function() {
+          const elements = document.querySelectorAll('.feature-card, .testimonial-card');
+          
+          elements.forEach(element => {
+            const elementPosition = element.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+            
+            if(elementPosition < screenPosition) {
+              element.style.opacity = '1';
+              element.style.transform = 'translateY(0)';
+            }
+          });
+        };
+        
+        // Set initial state
+        const features = document.querySelectorAll('.feature-card, .testimonial-card');
+        features.forEach(feature => {
+          feature.style.opacity = '0';
+          feature.style.transform = 'translateY(20px)';
+          feature.style.transition = 'all 0.6s ease';
+        });
+        
+        window.addEventListener('scroll', animateOnScroll);
+        animateOnScroll(); // Run once on load
+      });
+    </script>
+</body>
+</html>
