@@ -1,0 +1,19 @@
+# Core web app
+Flask>=2.3
+
+# Resume parsing (PDF/DOCX)
+PyPDF2>=3.0
+pdfminer.six>=20221105
+docx2txt>=0.8
+
+# Quiz / data handling (CSV/arrays) — optional but handy
+pandas>=2.0
+numpy>=1.22
+
+# Simple ML-style matching for “job suggestions” — optional
+scikit-learn>=1.2
+joblib>=1.2
+
+# Env config + prod server (optional)
+python-dotenv>=1.0
+gunicorn>=20.1
